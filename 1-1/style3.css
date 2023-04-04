@@ -1,0 +1,137 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+ }
+
+.header {
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+    margin: 0;
+}
+
+.ha {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    border: 10px solid white;
+    float: right;
+    position: relative;
+    top: 20px; right: 20px;
+}
+
+.hb {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    border: 10px solid white;
+    float: right;
+    position: relative;
+    top: 20px; right: 15px;
+}
+
+.hc {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    border: 10px solid white;
+    float: right;
+    position: relative;
+    top: 20px; right: 10px;
+}
+
+.left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+.right {
+    width: 250px;
+    height: 250px;
+    float: left;
+    background-color: #8c2727;
+}
+
+.a {
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid white;
+    position: relative;
+    top: 40px; left: 40px;
+}
+
+.b {
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid white;
+    position: relative;
+    top: 50px; left: 40px;
+}
+
+.c {
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid white;
+    position: relative;
+    top: 60px; left: 40px;
+ } 
+
+.footer {
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}
+
+@media screen and (max-width: 479px) {
+    .header{
+        width: 200px;
+        height: 200px;
+       }
+    .ha {
+        float: none;
+        position: relative;
+        top: 10px; left: 70px;
+    }
+    .hb {
+        float: none;
+        position: relative;
+        top: 10px; left: 70px;
+    }
+    .hc {
+        float: none;
+        position: relative;
+        top: 10px; left: 70px;
+    }
+
+    .left{
+        width: 200px;
+        height: 100px;
+        float: none;
+       }
+    .right{
+        width: 200px;
+        height: 200px;
+        float: none;
+       }
+    .a{
+        position: relative;
+        top: 20px; left: 30px;
+       }
+    .b{
+        position: relative;
+        top: 30px; left: 30px;
+       }
+    .c{
+        position: relative;
+        top: 40px; left: 30px;
+       }
+
+    .footer{
+        width: 200px;
+       }
+}
